@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default = "us-west-2"
+  default = "us-east-2"
 }
 
 variable "lambda_deploy_bucket" {}

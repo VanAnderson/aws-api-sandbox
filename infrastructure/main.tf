@@ -7,9 +7,9 @@ terraform {
     # these describe an external dependency
     # however, cannot store backend config in environment vars
     # IF YOU ARE NOT ME, CHANGE THIS TO A BUCKET YOU CAN ACCESS
-    bucket = "grosgrain"
+    bucket = "vanderson-aws-test-bucket"
 
     key    = "terraform-state/aws-api-sandbox/tf"
-    region = "us-west-2"
+    region = "us-east-2"
   }
 }
